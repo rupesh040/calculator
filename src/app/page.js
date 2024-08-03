@@ -26,7 +26,7 @@ export default function Home() {
   return (
   <>
   <div class="container ">
-    <motion.div class="calculator">
+    <div class="calculator">
         <motion.form action="" variants={container} initial="hidden" animate="visible">
             <div className="display">
                 <input type="text" value={value} variants={item}/>
@@ -66,7 +66,7 @@ export default function Home() {
     <div class="circle w-44 h-44 b rounded-full absolute top-[100%] left-[120%] translate-x-[-50%]
   translate-y-[-50%] z-[-1] bg-gradient-to-r from-sky-500 to-indigo-500 blur-3xl" ></div>
         </motion.form>
-    </motion.div>
+    </div>
   <h1 className="text-[20vw] rounded-full absolute top-[70%] left-[50%] translate-x-[-50%]
   translate-y-[-50%] z-[1] opacity-40 text">Rupesh.</h1>
   </div>
